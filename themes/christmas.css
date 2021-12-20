@@ -35,12 +35,11 @@ body {
 }
 
 .links a {
-    display:block;
-    width: 100px;
+    display: inline-block;
+    width: 140px;
     height: 20px;
     padding: 2px;
     color: red;
-    width: 140px;
     background-color: darkgreen;
 }
 

@@ -10,9 +10,7 @@ body {
 }
 
 td {
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+    
 }
 
 .banner {
@@ -20,6 +18,9 @@ td {
     font-size: 40;
     font-weight: bold;
     font-family: Courier;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
     padding: 8;
 }
 
@@ -28,11 +29,17 @@ td {
     font-size: 16;
     font-weight: bold;
     vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
     padding: 4;
 }
 
 .content {
     background: white;
     vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
     padding: 6
 }
