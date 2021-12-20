@@ -1,0 +1,16 @@
+//- leftpane.pug
+<html>
+head
+  block style
+  block title
+body
+  table(width="75%" height="90%" class="frameTable")
+    tr
+      td(colspan=2 class="banner" height=100)
+        block banner
+    tr
+      td(width=250 class="links")
+        block links
+      td(class="content")
+        block content
+</html>

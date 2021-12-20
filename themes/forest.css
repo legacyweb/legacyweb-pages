@@ -1,0 +1,43 @@
+body {
+    background-image: url('/images/leaves.jpg');
+}
+
+.frameTable {
+    background-color: #2A1B0A;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2A1B0A;
+}
+
+.banner {
+    background: #133c07;
+    font-size: 40;
+    color: #70b15c;
+    font-weight: bold;
+    font-family: Courier;
+    padding: 8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2A1B0A;
+}
+
+.links {
+    background: #70b15c;
+    font-size: 16;
+    color: #133c07;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 4;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2A1B0A;
+}
+
+.content {
+    background: white;
+    vertical-align: top;
+    padding: 6;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2A1B0A;
+}

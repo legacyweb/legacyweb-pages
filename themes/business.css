@@ -1,0 +1,38 @@
+body {
+    background-color: darkblue;
+}
+
+.frameTable {
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.banner {
+    background: grey;
+    font-size: 40;
+    font-weight: bold;
+    font-family: Courier;
+    padding: 8;
+}
+
+.links {
+    background: lightgrey;
+    font-size: 16;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 4;
+}
+
+.content {
+    background: white;
+    vertical-align: top;
+    padding: 6
+}
