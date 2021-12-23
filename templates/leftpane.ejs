@@ -25,7 +25,7 @@
                             <tr>
                                 <td <% if (links.bgColor) { %>bgcolor="<%= links.bgColor %>"<% } %>>
                                     <font size=4 face="<%= links.font.face %>">
-                                        <a href="<%- link.url %>"><%= link.text %></a>
+                                        <% if (links.font.bold) { %><b><a href="<%- link.url %>"><%= link.text %></a></b><% } else { %><a href="<%- link.url %>"><%= link.text %></a><% } %>
                                     </font>
                                 </td>
                             </tr>

@@ -1,0 +1,31 @@
+{
+  "body": {
+    "bgColor": "#006400",
+    "bgImage": "/images/fir.jpg",
+    "linkColor": "#daa520",
+    "borderColor": "#daa520",
+    "borderThickness": 4
+  },
+  "header": {
+    "bgColor": "#b22222",
+    "font": {
+      "face": "Courier New",
+      "color": "#daa520",
+      "bold": true
+    }
+  },
+  "links": {
+    "bgColor": "#006400",
+    "font": {
+      "face": "Tahoma",
+      "color": "#daa520",
+      "bold": true
+    }
+  },
+  "content": {
+    "bgColor": "#FFFFFF",
+    "font": {
+      "face": "Tahoma"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "body": {
+    "bgColor": "#f1eea9",
+    "bgImage": "/images/books.jpg",
+    "linkColor": "#ffffff",
+    "borderColor": "#2A1B0A",
+    "borderThickness": 4
+  },
+  "header": {
+    "bgColor": "#f1eea9",
+    "font": {
+      "face": "Courier New",
+      "color": "#000000",
+      "bold": true
+    }
+  },
+  "links": {
+    "bgColor": "#6f6e56",
+    "font": {
+      "face": "Tahoma",
+      "color": "#133c07",
+      "bold": true
+    }
+  },
+  "content": {
+    "bgColor": "#FFFFFF",
+    "font": {
+      "face": "Tahoma"
+    }
+  }
+}
