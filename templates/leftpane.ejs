@@ -20,9 +20,17 @@
 
                 <tr />
                     <td height=600px width=180px bgcolor="<%= links.bgColor %>" <% if (links.bgImage) { %> background="<%= links.bgImage %>" <% } %> valign=top>
-                        <font size=4 face="<%= links.font.face %>">
-                            <%- page.links %>
-                        </font>
+                        <table border="0">
+                            <% page.links.forEach(link => { %>
+                            <tr>
+                                <td <% if (links.bgColor) { %>bgcolor="<%= links.bgColor %>"<% } %>>
+                                    <font size=4 face="<%= links.font.face %>">
+                                        <a href="<%- link.url %>"><%= link.text %></a>
+                                    </font>
+                                </td>
+                            </tr>
+                            <%})%>
+                        </table>
                     </td>
                     <td height=600px width=600px bgcolor="<%= content.bgColor %>" <% if (content.bgImage) { %> background="<%= content.bgImage %>" <% } %> valign=top>
                         <font face="<%= content.font.face %>">
@@ -30,8 +38,6 @@
                         </font>
                     </td>
             </table>
-
-
         </td>
 </table>
 
