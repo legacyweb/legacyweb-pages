@@ -1,19 +1,23 @@
-const LeftPage = require('../..//lib/left-page');
+const LeftPage = require('../../lib/left-page');
+const pug = require('pug');
+const fs = require('fs');
+
+const header = fs.readFileSync('./header.html', 'utf-8');
+const contentHome = pug.render(fs.readFileSync('./content-home.pug', 'utf-8'), {});
+const contentPage1 = fs.readFileSync('./content-page1.pug', 'utf-8');
 
 const myLeftPage = new LeftPage('forest', 'Sample Page', {
-  pugFile: './content-home.pug',
   gen: function() {
-    return Promise.resolve({});
+    return Promise.resolve(contentHome);
   }
 });
 
-myLeftPage.setHeader('./header.pug');
+myLeftPage.setHeader(header);
 
 myLeftPage.addPage({
   path: '/page1',
-  pugFile: './content-page1.pug',
   gen: async function() {
-    return Promise.resolve({name: 'Justin'});
+    return Promise.resolve(pug.render(contentPage1, {name: 'Justin'}));
   },
   title: 'Page 1'
 });

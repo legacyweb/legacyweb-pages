@@ -1,0 +1,31 @@
+{
+  "body": {
+    "bgColor": "#133c07",
+    "bgImage": "/images/leaves.jpg",
+    "linkColor": "#133c07",
+    "borderColor": "#2A1B0A",
+    "borderThickness": 4
+  },
+  "header": {
+    "bgColor": "#133c07",
+    "font": {
+      "face": "Courier New",
+      "color": "#70b15c",
+      "bold": true
+    }
+  },
+  "links": {
+    "bgColor": "#70b15c",
+    "font": {
+      "face": "Tahoma",
+      "color": "#133c07",
+      "bold": true
+    }
+  },
+  "content": {
+    "bgColor": "#FFFFFF",
+    "font": {
+      "face": "Tahoma"
+    }
+  }
+}

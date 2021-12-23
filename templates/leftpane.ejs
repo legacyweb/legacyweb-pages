@@ -1,5 +1,5 @@
 <html>
-<body bgcolor="#00008B" link="<%= body.linkColor %>" vlink="<%= body.linkColor %>">
+<body bgcolor="#00008B" <% if (body.bgImage) { %>background="<%- body.bgImage %>"<% } %> link="<%= body.linkColor %>" vlink="<%= body.linkColor %>">
 
 <table width="780px" border=0>
     <tr>
@@ -13,7 +13,7 @@
                 <tr />
 
                     <td height=80px colspan=2 bgcolor="<%= header.bgColor %>" <% if (header.bgImage) { %> background="<%= header.bgImage %>" <% } %>>
-                        <font size=7 face="<%= header.font.face %>">
+                        <font size=7 face="<%= header.font.face %>" color="<%= header.font.color %>">
                             <% if (header.font.bold) { %> <b><%- page.header %></b> <% } else { %><%- page.header %><% } %>
                         </font>
                     </td>
