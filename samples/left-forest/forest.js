@@ -1,6 +1,7 @@
 const Page = require('../../lib/page');
 const pug = require('pug');
 const fs = require('fs');
+const path = require('path');
 
 const header = fs.readFileSync('./header.html', 'utf-8');
 const contentHome = pug.render(fs.readFileSync('./content-home.pug', 'utf-8'), {});
@@ -10,7 +11,9 @@ const myLeftPage = new Page('leftpane', 'forest', 'Sample Page', {
   gen: function() {
     return Promise.resolve(contentHome);
   }
-});
+}, true, [path.join(__dirname, 'images')]);
+
+myLeftPage.setBgImage('body', '/images/leaves.jpg');
 
 myLeftPage.setHeader(header);
 
