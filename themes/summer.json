@@ -1,0 +1,30 @@
+{
+  "body": {
+    "bgColor": "#00008B",
+    "linkColor": "#5F9EA0",
+    "borderColor": "#5F9EA0",
+    "borderThickness": 4
+  },
+  "header": {
+    "bgColor": "#006400",
+    "font": {
+      "face": "Courier New",
+      "color": "#5F9EA0",
+      "bold": true
+    }
+  },
+  "links": {
+    "bgColor": "#2F4F4F",
+    "font": {
+      "face": "Tahoma",
+      "color": "#FAFAD2",
+      "bold": true
+    }
+  },
+  "content": {
+    "bgColor": "#FFFFFF",
+    "font": {
+      "face": "Tahoma"
+    }
+  }
+}
