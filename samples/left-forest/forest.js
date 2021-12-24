@@ -11,7 +11,7 @@ const myLeftPage = new Page('leftpane', 'forest', 'Sample Page', {
   gen: function() {
     return Promise.resolve(contentHome);
   }
-}, true, [path.join(__dirname, 'images')]);
+}, true, [{webPath: '/images', filePath: path.join(__dirname, 'images')}]);
 
 myLeftPage.setBgImage('body', '/images/leaves.jpg');
 
