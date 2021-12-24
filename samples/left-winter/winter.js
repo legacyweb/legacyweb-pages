@@ -6,7 +6,7 @@ const header = fs.readFileSync('./header.html', 'utf-8');
 const contentHome = pug.render(fs.readFileSync('./content-home.pug', 'utf-8'), {});
 const contentPage1 = fs.readFileSync('./content-page1.pug', 'utf-8');
 
-const myLeftPage = new Page('leftpane', 'business', 'Sample Page', {
+const myLeftPage = new Page('leftpane', 'winter', 'Sample Page', {
   gen: function() {
     return Promise.resolve(contentHome);
   }

@@ -1,4 +1,4 @@
-const LeftPage = require('./lib/left-page');
+const LeftPage = require('./lib/page');
 
 module.exports = {
   LeftPage

@@ -1,24 +1,23 @@
 {
   "body": {
-    "bgColor": "#006400",
-    "bgImage": "/images/fir.jpg",
-    "linkColor": "#daa520",
-    "borderColor": "#daa520",
+    "bgImage": "/images/space.jpg",
+    "bgColor": "#000000",
+    "linkColor": "#000000",
+    "borderColor": "#32CD32",
     "borderThickness": 4
   },
   "header": {
-    "bgColor": "#b22222",
+    "bgColor": "#000000",
     "font": {
-      "face": "Comic Sans MS",
-      "color": "#daa520",
+      "face": "Courier New",
+      "color": "#32CD32",
       "bold": true
     }
   },
   "links": {
-    "bgColor": "#006400",
+    "bgColor": "#788890",
     "font": {
       "face": "Tahoma",
-      "color": "#daa520",
       "bold": true
     }
   },

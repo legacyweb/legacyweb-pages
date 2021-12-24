@@ -1,24 +1,24 @@
 {
   "body": {
-    "bgColor": "#006400",
-    "bgImage": "/images/fir.jpg",
-    "linkColor": "#daa520",
-    "borderColor": "#daa520",
+    "bgColor": "#133c07",
+    "bgImage": "/images/winter.jpg",
+    "linkColor": "#2F4F4F",
+    "borderColor": "#4682B4",
     "borderThickness": 4
   },
   "header": {
-    "bgColor": "#b22222",
+    "bgColor": "#5F9EA0",
     "font": {
-      "face": "Comic Sans MS",
-      "color": "#daa520",
+      "face": "Courier New",
+      "color": "#F0FFFF",
       "bold": true
     }
   },
   "links": {
-    "bgColor": "#006400",
+    "bgColor": "#B0C4DE",
     "font": {
       "face": "Tahoma",
-      "color": "#daa520",
+      "color": "#778899",
       "bold": true
     }
   },
