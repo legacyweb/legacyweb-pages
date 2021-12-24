@@ -1,5 +1,3 @@
-const LeftPage = require('./lib/page');
+const Page = require('./lib/page');
 
-module.exports = {
-  LeftPage
-};
+module.exports = Page;
