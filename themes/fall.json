@@ -1,0 +1,31 @@
+{
+  "body": {
+    "bgColor": "#133c07",
+    "bgImage": "/images/fall.jpg",
+    "linkColor": "#DAA520",
+    "borderColor": "#B22222",
+    "borderThickness": 4
+  },
+  "header": {
+    "bgColor": "#DAA520",
+    "font": {
+      "face": "Courier New",
+      "color": "#B22222",
+      "bold": true
+    }
+  },
+  "links": {
+    "bgColor": "#B22222",
+    "font": {
+      "face": "Tahoma",
+      "color": "#FAFAD2",
+      "bold": true
+    }
+  },
+  "content": {
+    "bgColor": "#FFFFFF",
+    "font": {
+      "face": "Tahoma"
+    }
+  }
+}

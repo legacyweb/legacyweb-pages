@@ -1,0 +1,38 @@
+<html>
+<body bgcolor="#00008B" <% if (body.bgImage) { %>background="<%- body.bgImage %>"<% } %> link="<%= body.linkColor %>" vlink="<%= body.linkColor %>">
+<center>
+    <table width="780px" border=0>
+        <tr>
+            <!-- This is actually where the "border" color is defined -->
+            <td bgcolor="<%= body.borderColor %>">
+
+                <!-- This inner table is where the page content (header, links, content) actually go
+                cellspacing = border thickness
+                -->
+                <table width="780px" border=0 cellspacing=<%= body.borderThickness %> >
+                    <tr />
+
+                        <td height=80px bgcolor="<%= header.bgColor %>" <% if (header.bgImage) { %> background="<%= header.bgImage %>" <% } %>>
+                            <font size=7 face="<%= header.font.face %>" color="<%= header.font.color %>">
+                                <% if (header.font.bold) { %> <b><%- page.header %></b> <% } else { %><%- page.header %><% } %>
+                            </font>
+                        </td>
+
+                    <tr>
+                        <td height=20px bgcolor="<%= links.bgColor %>" <% if (links.bgImage) { %> background="<%= links.bgImage %>" <% } %> valign=top>
+                            <%- page.strip %>
+                        </td>
+                    </tr>
+                    <tr />
+
+                        <td bgcolor="<%= content.bgColor %>" <% if (content.bgImage) { %> background="<%= content.bgImage %>" <% } %> valign=top>
+                            <font face="<%= content.font.face %>">
+                                <%- page.content %>
+                            </font>
+                        </td>
+                </table>
+            </td>
+    </table>
+</center>
+</body>
+</html>
