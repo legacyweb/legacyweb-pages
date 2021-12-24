@@ -1,0 +1,31 @@
+{
+  "body": {
+    "bgColor": "#2F4F4F",
+    "bgImage": "/images/ocean.jpg",
+    "linkColor": "#2F4F4F",
+    "borderColor": "#4682B4",
+    "borderThickness": 4
+  },
+  "header": {
+    "bgColor": "#2F4F4F",
+    "font": {
+      "face": "Courier New",
+      "color": "#F0FFFF",
+      "bold": true
+    }
+  },
+  "links": {
+    "bgColor": "#8DBC8F",
+    "font": {
+      "face": "Tahoma",
+      "color": "#778899",
+      "bold": true
+    }
+  },
+  "content": {
+    "bgColor": "#FFFFFF",
+    "font": {
+      "face": "Tahoma"
+    }
+  }
+}

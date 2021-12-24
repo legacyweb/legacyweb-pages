@@ -1,0 +1,31 @@
+{
+  "body": {
+    "bgColor": "#133c07",
+    "bgImage": "/images/spring.jpg",
+    "linkColor": "#FAFAD2",
+    "borderColor": "#228B22",
+    "borderThickness": 4
+  },
+  "header": {
+    "bgColor": "#DAA520",
+    "font": {
+      "face": "Courier New",
+      "color": "#006400",
+      "bold": true
+    }
+  },
+  "links": {
+    "bgColor": "#006400",
+    "font": {
+      "face": "Tahoma",
+      "color": "#FAFAD2",
+      "bold": true
+    }
+  },
+  "content": {
+    "bgColor": "#FFFFFF",
+    "font": {
+      "face": "Tahoma"
+    }
+  }
+}
