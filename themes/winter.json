@@ -1,7 +1,6 @@
 {
   "body": {
-    "bgColor": "#133c07",
-    "bgImage": "/images/winter.jpg",
+    "bgColor": "#E0FFFF",
     "linkColor": "#2F4F4F",
     "borderColor": "#4682B4",
     "borderThickness": 4

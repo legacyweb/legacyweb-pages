@@ -1,7 +1,6 @@
 {
   "body": {
-    "bgColor": "#2F4F4F",
-    "bgImage": "/images/ocean.jpg",
+    "bgColor": "#191970",
     "linkColor": "#2F4F4F",
     "borderColor": "#4682B4",
     "borderThickness": 4
