@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "images/**",
+    "lib/**",
+    "templates/**",
+    "themes/**",
+    "index.js"
+  ],
   "author": "Justin Schwartzbeck (justinmschw@gmail.com)",
   "license": "ISC",
   "dependencies": {

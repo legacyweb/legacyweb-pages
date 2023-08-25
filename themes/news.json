@@ -1,0 +1,31 @@
+{
+    "body": {
+      "bgColor": "black",
+      "bgImage": "/images/stripebg.jpg",
+      "backgroundRepeat": "repeat",
+      "linkColor": "white",
+      "borderColor": "black",
+      "borderThickness": 4
+    },
+    "header": {
+      "bgColor": "#73909a",
+      "font": {
+        "face": "Courier New",
+        "bold": true
+      }
+    },
+    "links": {
+      "bgColor": "#4c5f65",
+      "font": {
+        "face": "Tahoma",
+        "color": "white",
+        "bold": true
+      }
+    },
+    "content": {
+      "bgColor": "#FFFFFF",
+      "font": {
+        "face": "Tahoma"
+      }
+    }
+  }
